@@ -1,6 +1,7 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { Speech2textComponent } from './speech2text.component';
+import {NgModule} from '@angular/core';
+import {CommonModule} from '@angular/common';
+import {Speech2textComponent} from './speech2text.component';
+import {MaterialModule} from '../shared/material/material.module';
 
 
 
@@ -9,7 +10,9 @@ import { Speech2textComponent } from './speech2text.component';
     Speech2textComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MaterialModule
   ]
 })
-export class Speech2textModule { }
+export class Speech2textModule {
+}
