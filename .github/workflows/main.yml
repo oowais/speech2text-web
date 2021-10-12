@@ -26,5 +26,5 @@ jobs:
           npm ci
           (echo y; echo y; echo y; echo y;) | sudo npm install -g @angular/cli
           npm run build --prod
-          copy dist/ docs/
+          cp -r dist/ docs/
           
