@@ -31,7 +31,7 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-directory: 'dist'
+          source-directory: 'dist/speech2text-web'
           destination-github-username: 'oowais'
           destination-repository-name: 'test'
           user-email: oowais@gmail.com
