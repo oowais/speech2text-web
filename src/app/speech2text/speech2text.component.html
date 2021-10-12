@@ -3,7 +3,7 @@
 </section>
 <section>
   <mat-form-field>
-    <mat-label>Select your language</mat-label>
+    <mat-label>Select language</mat-label>
     <mat-select [(value)]="currentLanguage">
       <mat-option *ngFor="let language of languages" [value]="language" (click)="selectLanguage(language)">
         {{language}}
