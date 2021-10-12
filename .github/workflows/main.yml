@@ -4,7 +4,7 @@ on:
   push:
     branches: [ master ]
   # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+  # workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -38,4 +38,4 @@ jobs:
           destination-repository-name: 'oowais.github.io'
           user-email: oowais@gmail.com
           user-name: Owais
-          target-branch: main          
+          target-branch: master          
